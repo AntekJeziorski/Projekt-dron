@@ -1,6 +1,13 @@
 ## Opis
 Program służy do obsługi dwóch dronów w środowisku trójwymiarowym. Użytkownik ma możliwość wyboru, którym dronem chce sterować. Sterowanie odbywa się poprzez podanie kąta obrotu oraz długości lotu. 
 Możliwe jest umieszczanie oraz usuwanie przeszkód na scenie. Podczas lądowania drona sprawdzane jest, czy podłoże pod nim nie posiada żadnych przeszkód.
+Program został napisany w języku C++ spełniając zasady programowania obiektowego.
+
+## Wymagania
+1. System Linux
+2. gnuplot
+3. cmake
+4. doxygen + dot
 
 ## Uruchamianie programu
 1. Należy stworzyć folder "build" jeśli nie istnieje i następnie zbudować w nim plik MakeFile przy użyciu polecenia "cmake ..".
